@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "maple block",
+  "description": "This extension disables maple timer",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://8maple.ru/*",
+        "http://8video.tv/*"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
