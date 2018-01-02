@@ -17,3 +17,16 @@ el = document.getElementById('hddbox');
 if (el) {
     el.style.pointerEvents = 'auto';
 }
+
+// rapidvideo
+el = document.getElementById("top350");
+if (el) {
+    el.parentNode.removeChild(el);
+} else {
+    console.log("not found", document);
+}
+
+el = document.getElementById("top350b");
+if (el) {
+    el.parentNode.removeChild(el);
+}

@@ -7,7 +7,8 @@
     {
       "matches": [
         "http://8maple.ru/*",
-        "http://8video.tv/*"
+        "http://8video.tv/*",
+        "https://www.rapidvideo.com/*"
       ],
       "js": [
         "main.js"
