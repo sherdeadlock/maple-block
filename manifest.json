@@ -8,6 +8,7 @@
       "matches": [
         "http://8maple.ru/*",
         "http://8video.tv/*",
+        "http://video.8maple.ru/*",
         "https://www.rapidvideo.com/*"
       ],
       "js": [
